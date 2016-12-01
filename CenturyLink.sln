@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log4Net", "Log4Net", "{D6DB251E-2B24-4EB7-9A25-DB98107A48C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93BE728A-8A66-4D52-B82E-5118973F5AF4}"
+	ProjectSection(SolutionItems) = preProject
+		SqlScripts.sql = SqlScripts.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerTrack", "ServerTrack\ServerTrack.csproj", "{3615F59E-6B65-4557-970E-0A2AB0F3DDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClientConsole", "WebClientConsole\WebClientConsole.csproj", "{29C7198F-8FD8-4367-9DFE-04EE8F1DC2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3615F59E-6B65-4557-970E-0A2AB0F3DDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3615F59E-6B65-4557-970E-0A2AB0F3DDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3615F59E-6B65-4557-970E-0A2AB0F3DDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3615F59E-6B65-4557-970E-0A2AB0F3DDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C7198F-8FD8-4367-9DFE-04EE8F1DC2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C7198F-8FD8-4367-9DFE-04EE8F1DC2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C7198F-8FD8-4367-9DFE-04EE8F1DC2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C7198F-8FD8-4367-9DFE-04EE8F1DC2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
